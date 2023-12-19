@@ -5,8 +5,11 @@ const AWS = require('aws-sdk');
 const uuid = require('uuid');
 
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
-module.exports.createTodo = (event, context, callback) => {
+module.exports.createTodo = (event, context, callback) => {888hb;
 
     const datetime = new Date().toISOString();
     const data = JSON.parse(event.body);
